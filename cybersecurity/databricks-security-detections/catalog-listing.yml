@@ -5,7 +5,8 @@
 title: "Security Detection-as-Code with Databricks Alerts"
 
 # Industry and categorization
-industry: "SSA"
+# industry: Field Catalog vertical code; FINS = Financial Services–scoped (not shown in all-industries global view)
+industry: "FINS"
 secondary_industry: "Financial Services"
 subvertical: "Security Operations"
 

@@ -67,6 +67,11 @@ This repository is organized into four main domains, each containing content foc
 - Data privacy and protection
 - Security architecture and design patterns
 
+### 📦 Archive (`/z-archive`)
+**Purpose:** Preserve retired Specialist offerings for reference. The `z-` prefix sorts this folder **last** in the repository root so active domain folders appear first. Folders here mirror domain structure (`z-archive/data-warehousing`, etc.) but are **not** part of active Field Catalog ingestion—downstream tooling should exclude `z-archive/` when syncing `catalog-listing.yml` files.
+
+See [z-archive/README.md](z-archive/README.md) for policy and layout.
+
 ## Content Standards
 
 Content in this repository follows consistent standards to ensure quality and effectiveness:
@@ -78,7 +83,7 @@ Content in this repository follows consistent standards to ensure quality and ef
 
 ## Getting Started
 
-1. Browse the domain folders to find relevant content
+1. Browse the domain folders to find relevant content (retired offerings live under `/z-archive`; see [z-archive/README.md](z-archive/README.md))
 2. Use the templates in `/templates` for creating new structured content
 3. Ensure content aligns with SSA engagement principles
 4. Focus on measurable outcomes and clear value propositions

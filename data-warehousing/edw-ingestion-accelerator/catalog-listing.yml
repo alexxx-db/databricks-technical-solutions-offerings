@@ -5,7 +5,6 @@
 title: "EDW Ingestion Accelerator"
 
 # Industry and categorization
-industry: "SSA"  # Max 255 characters
 secondary_industry: "Financial Services"  # Max 255 characters, optional
 subvertical: "Insurance"  # Max 255 characters
 
