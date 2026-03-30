@@ -5,7 +5,8 @@
 title: "DW Performance PoC Accelerator"
 
 # Industry and categorization
-# Global offering — `industry` key omitted (NULL = all verticals)
+# Minimal public release (Apr 1): industry SSA per rollout requirements
+industry: "SSA"
 
 # Status and priority
 status: "Complete"  # Max 50 characters (e.g., Complete, In Progress)

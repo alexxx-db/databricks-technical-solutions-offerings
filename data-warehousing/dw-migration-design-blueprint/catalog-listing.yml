@@ -5,15 +5,16 @@
 title: "DW Migration Design Blueprint"
 
 # Industry and categorization
-# Global offering — `industry` key omitted (NULL = all verticals)
+# Minimal public release (Apr 1): industry SSA per rollout requirements
+industry: "SSA"
 
 # Status and priority
 status: "Complete"  # Max 50 characters (e.g., Complete, In Progress)
 strategic_priority: "High"  # Max 50 characters (e.g., High, Medium, Low)
 
 # Ownership and responsibility
-demo_owner: ""  # Max 255 characters — TODO: fill in offering owner
-industry_lead: ""  # Max 255 characters — TODO: fill in industry lead
+demo_owner: "yong@databricks.com"  # Max 255 characters — TODO: fill in offering owner
+industry_lead: "yong@databricks.com"  # Max 255 characters — TODO: fill in industry lead
 
 # Links to internal resources
 # [pitch_deck, genie, reprise, yoodli, dbdemos, personas, recording, case_studies, app, github, demo, marketing, script, dashboard]

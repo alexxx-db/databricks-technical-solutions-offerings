@@ -5,7 +5,8 @@
 title: "UC Design Blueprint"
 
 # Industry and categorization
-# Global offering — omit `industry` (NULL = all verticals). Optional: add secondary_industry / subvertical when useful.
+# Minimal public release (Apr 1): industry SSA per rollout requirements
+industry: "SSA"
 
 # Status and priority
 status: "Complete"  # Max 50 characters (e.g., Complete, In Progress)

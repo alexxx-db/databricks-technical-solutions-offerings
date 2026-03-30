@@ -17,6 +17,9 @@ Archived offerings keep the same **domain** structure as the rest of the repo, u
 ```
 z-archive/
 ├── README.md                    # This file
+├── cybersecurity/
+│   ├── README.md                # Index of archived cybersecurity offerings
+│   └── <offering-name>/        # Retired offering (may include catalog-listing.yml)
 ├── data-warehousing/
 │   ├── README.md                # Index of archived data warehousing offerings
 │   └── <offering-name>/        # Retired offering (may include catalog-listing.yml)
