@@ -22,7 +22,7 @@ These Offerings should include a `catalog-listing.yml` file to promote discovera
 
 ## Repository Structure
 
-This repository is organized into four main domains, each containing content focused on specific technology areas:
+This repository is organized into five main domains, each containing content focused on specific technology areas:
 
 ### 📊 Data Warehousing (`/data-warehousing`)
 **Purpose:** Accelerate adoption of modern data warehousing technologies, expedite technical evaluation, and streamline positioning for data warehousing solutions.
@@ -44,6 +44,17 @@ This repository is organized into four main domains, each containing content foc
 - Data pipeline monitoring and observability
 - Modern data stack architecture
 - Apache Spark optimization
+
+### 🛡️ Data Governance (`/data-governance`)
+**Purpose:** Accelerate adoption of data governance best practices, expedite technical evaluation of governance solutions, and streamline positioning for Unity Catalog and data governance implementations.
+
+**Common Use Cases:**
+- Unity Catalog design and deployment
+- Data governance strategy and policy frameworks
+- Multi-region, multi-cloud, and multi-BU governance
+- Regulatory compliance (PII, PCI, PHI, data residency)
+- Integration with third-party governance tools (Collibra, Immuta, Purview)
+- Metastore and catalog hierarchy design
 
 ### 🤖 GenAI (`/gen-ai`)
 **Purpose:** Accelerate adoption of generative AI technologies, expedite technical evaluation of AI platforms, and streamline positioning for AI/ML solutions.
@@ -67,6 +78,11 @@ This repository is organized into four main domains, each containing content foc
 - Data privacy and protection
 - Security architecture and design patterns
 
+### 📦 Archive (`/z-archive`)
+**Purpose:** Preserve retired Specialist offerings for reference. The `z-` prefix sorts this folder **last** in the repository root so active domain folders appear first. Folders here mirror domain structure (`z-archive/data-warehousing`, etc.) but are **not** part of active Field Catalog ingestion—downstream tooling should exclude `z-archive/` when syncing `catalog-listing.yml` files.
+
+See [z-archive/README.md](z-archive/README.md) for policy and layout.
+
 ## Content Standards
 
 Content in this repository follows consistent standards to ensure quality and effectiveness:
@@ -78,7 +94,7 @@ Content in this repository follows consistent standards to ensure quality and ef
 
 ## Getting Started
 
-1. Browse the domain folders to find relevant content
+1. Browse the domain folders to find relevant content (`data-warehousing`, `data-engineering`, `data-governance`, `gen-ai`, `cybersecurity`; retired offerings live under `/z-archive`; see [z-archive/README.md](z-archive/README.md))
 2. Use the templates in `/templates` for creating new structured content
 3. Ensure content aligns with SSA engagement principles
 4. Focus on measurable outcomes and clear value propositions
