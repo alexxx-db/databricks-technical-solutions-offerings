@@ -1,5 +1,5 @@
-# Security Detection-as-Code Catalog Listing
-# This file defines the catalog listing for the Databricks Security Detection-as-Code offering
+# FinOps Alerts
+# Catalog listing for the FinOps Alerts offering
 
 # Required fields
 title: "FinOps Alerts"
@@ -39,6 +39,10 @@ partner: ""
 
 # Description and details
 demo_description: |
+  ## FinOps Alerts
+  
+  > **SSA offering — how to engage:** If you are interested in this SSA Offering, follow the ASQ process (go/gethelp): Product Help > Pilot/Production Advisory; then put the tag #ssa-offering #finops-alerts in both the **Title** and **Description** fields.
+  
   ## Overview
   
   PLACEHOLDER

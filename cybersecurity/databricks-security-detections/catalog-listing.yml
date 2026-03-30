@@ -40,6 +40,10 @@ partner: ""
 
 # Description and details
 demo_description: |
+  ## Security Detection-as-Code with Databricks Alerts
+  
+  > **SSA offering — how to engage:** If you are interested in this SSA Offering, follow the ASQ process (go/gethelp): Product Help > Pilot/Production Advisory; then put the tag #ssa-offering #databricks-security-detections in both the **Title** and **Description** fields.
+  
   ## Overview
   
   This project demonstrates how to author and deploy detection rules using SQL and Databricks notebooks for Security Detection-as-Code principles. The detection rules use Databricks system tables for real-time security monitoring and automatically create alerts for security incidents. Now enhanced with AI-powered security analysis for intelligent risk assessment and recommendations.

@@ -46,6 +46,8 @@ partner: ""  # Max 255 characters, partner company name (when partner_developed 
 demo_description: |
   ## EDW Ingestion Accelerator
   
+  > **SSA offering — how to engage:** If you are interested in this SSA Offering, follow the ASQ process (go/gethelp): Product Help > Pilot/Production Advisory; then put the tag #ssa-offering #edw-ingestion-accelerator in both the **Title** and **Description** fields.
+  
   **GOAL:** Make it simple and fast to move priority subset of EDW tables to Databricks
   
   ### Overview
