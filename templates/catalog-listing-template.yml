@@ -8,14 +8,14 @@ title: "Example Offering Title"  # Required, max 500 characters
 
 # Industry and categorization
 #
-# GLOBAL (applies to every industry / typical default):
-#   Do NOT include an `industry` key at all—leave it out so it stores as blank/NULL.
-#
-# VERTICAL-SPECIFIC (only for customers in one Field Catalog vertical):
-#   Add exactly one line: industry: "<CODE>" using the catalog’s vertical code (e.g. FINS, CME, HLS).
-#   Do not use "SSA"; team/function is set by the sync pipeline, not this file.
+# Set `industry` to one Field Catalog vertical code (e.g. FINS, CME, HLS, MFG, PUBSEC).
+# This repository currently expects every offering to be vertical-scoped—there are no
+# globally applicable listings right now. Omit `industry` only for a deliberate global
+# offering when Field Catalog explicitly allows NULL (stores blank; all-industries view).
+# Do not use "SSA"; team/function is set by the sync pipeline, not this file.
 #
 # secondary_industry and subvertical are optional extra tags (separate from `industry`).
+industry: "FINS"  # Replace with the correct catalog code for your vertical
 secondary_industry: "Financial Services"  # Max 255 characters, optional
 subvertical: "Insurance"  # Max 255 characters, optional
 

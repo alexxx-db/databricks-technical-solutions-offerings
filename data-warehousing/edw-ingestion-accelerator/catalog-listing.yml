@@ -5,6 +5,7 @@
 title: "EDW Ingestion Accelerator"
 
 # Industry and categorization
+industry: "FINS"  # Field Catalog vertical code (Financial Services–scoped)
 secondary_industry: "Financial Services"  # Max 255 characters, optional
 subvertical: "Insurance"  # Max 255 characters
 

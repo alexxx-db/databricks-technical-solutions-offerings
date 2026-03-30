@@ -5,6 +5,7 @@
 title: "FinOps Alerts"
 
 # Industry and categorization
+industry: "FINS"  # Field Catalog vertical code (Financial Services–scoped)
 secondary_industry: "Financial Services"
 subvertical: "Observability"
 
