@@ -84,7 +84,7 @@ All new contributions must meet the following requirements:
 ## Repository Standards
 
 ### Code Organization
-- Follow the established folder structure (`data-warehousing`, `data-engineering`, `gen-ai`, `cybersecurity`) for **active** offerings
+- Follow the established folder structure (`data-warehousing`, `data-engineering`, `data-governance`, `gen-ai`, `cybersecurity`) for **active** offerings
 - Put **retired** offerings only under `z-archive/<domain>/…` (see [z-archive/README.md](z-archive/README.md))
 - Use the templates in `/templates` for consistency
 - Maintain clear separation between different types of content

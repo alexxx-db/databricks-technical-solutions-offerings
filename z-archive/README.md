@@ -33,7 +33,7 @@ Run these from the **repository root** on a feature branch (not directly on `mai
    mkdir -p z-archive/<domain>
    ```
 
-   Replace `<domain>` with one of: `data-warehousing`, `data-engineering`, `gen-ai`, `cybersecurity`.
+   Replace `<domain>` with one of: `data-warehousing`, `data-engineering`, `data-governance`, `gen-ai`, `cybersecurity`.
 
 2. **Move the offering folder** (preserves history as a rename when Git detects it):
 
@@ -58,4 +58,4 @@ Run these from the **repository root** on a feature branch (not directly on `mai
 
 ## Contributing
 
-**Do not** add new offerings under `/z-archive`. New work belongs under the domain folders at the repository root (`data-warehousing`, `data-engineering`, `gen-ai`, `cybersecurity`). To retire an offering, follow [Git commands](#git-commands) and [After the move](#after-the-move) above. General contribution expectations are in [CONTRIBUTING.md](../CONTRIBUTING.md).
+**Do not** add new offerings under `/z-archive`. New work belongs under the domain folders at the repository root (`data-warehousing`, `data-engineering`, `data-governance`, `gen-ai`, `cybersecurity`). To retire an offering, follow [Git commands](#git-commands) and [After the move](#after-the-move) above. General contribution expectations are in [CONTRIBUTING.md](../CONTRIBUTING.md).
