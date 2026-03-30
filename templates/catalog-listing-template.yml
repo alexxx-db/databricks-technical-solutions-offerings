@@ -6,16 +6,20 @@
 # Required fields
 title: "Example Offering Title"  # Required, max 500 characters
 
-# Industry and categorization
+# Industry and categorization (Field Catalog)
 #
-# Set `industry` to one Field Catalog vertical code (e.g. FINS, CME, HLS, MFG, PUBSEC).
-# This repository currently expects every offering to be vertical-scoped—there are no
-# globally applicable listings right now. Omit `industry` only for a deliberate global
-# offering when Field Catalog explicitly allows NULL (stores blank; all-industries view).
-# Do not use "SSA"; team/function is set by the sync pipeline, not this file.
+# The Field Catalog sync sets team/function from pipeline config (e.g. SSA). Do NOT add team_function
+# to this YAML unless product explicitly requires it later.
 #
-# secondary_industry and subvertical are optional extra tags (separate from `industry`).
-industry: "FINS"  # Replace with the correct catalog code for your vertical
+# `industry` is ONLY for customer vertical scope (not "SSA" and not team):
+#   - Global offering (all verticals / typical default): OMIT the `industry` key entirely.
+#     That stores as NULL and surfaces in "all industries" and when users filter by a specific industry.
+#   - Vertical-specific: set `industry` to ONE Field Catalog vertical code used by the DB/UI
+#     (e.g. FINS, CME, HLS, MFG, RCT, E&U, X-industry, PUBSEC—match the catalog; do not invent labels).
+#     Then the offering appears only when that vertical is selected, not in the global "all industries" view.
+# If scope is unclear, omit `industry` (global). Never use industry: "SSA"—that was a legacy placeholder.
+#
+# secondary_industry / subvertical: optional extra granularity; separate columns from `industry`.
 secondary_industry: "Financial Services"  # Max 255 characters, optional
 subvertical: "Insurance"  # Max 255 characters, optional
 
