@@ -81,6 +81,28 @@ demo_description: |
   - Source unstructured data accessible (UC Volumes, cloud storage, or streaming source)
   - Named technical owner for the data pipeline
 
+  ### Engagement Process (4-Step Joint Execution Plan)
+
+  **Step 1 — Discovery & Use Case Scoping** (4hrs FTE / 0.5 wks)
+  - Prerequisite: Customer has identified candidate unstructured / multi-modal datasets and a target downstream use case
+  - 1 Hour Sync: Review offering scope, walk through available workflow patterns (document parsing/extraction, embedded asset extraction, redaction, audio transcription/diarization), confirm participants and access
+  - Next Steps: Select the workflow patterns to pilot; gather representative sample data, ground-truth labels (where available) or performance goals, and volume/SLA targets
+
+  **Step 2 — Workflow Design** (8hrs FTE / 1 wk)
+  - Prerequisite: Sample data accessible in UC Volumes / cloud storage; target use case documented
+  - 1–2 Hour Session: Map customer requirements to AI Functions / FMAPI / VLM / OCR building blocks; design end-to-end pipeline (parse → classify/extract → store) and pick batch vs. streaming pattern
+  - Next Steps: Specialist delivers a reference workflow notebook adapted to the customer's data and a draft Lakeflow Jobs orchestration plan
+
+  **Step 3 — Build & Evaluate** (8+ FTE / 1 wks)
+  - Prerequisite: Reference workflow notebook reviewed; ground-truth or labeled sample ready
+  - 2 Hour Session: Walk through the AI Functions evaluation harness; run evals against the customer's sample data, review accuracy / quality / latency / cost trade-offs, iterate on prompts and model choice
+  - Next Steps: Tuned workflow checked into customer repo; eval baseline documented for ongoing regression tracking via MLflow
+
+  **Step 4 — Productionize on Lakeflow Jobs** (8+ hrs FTE / 1 wk)
+  - Prerequisite: Evaluated workflow meeting quality bar and SLA; SA owns the LLM batch inference debugging process (go/batchinference/debug)
+  - 2 Hour Session: Stand up Lakeflow Jobs (batch and/or streaming), wire in monitoring, alerting, and cost controls;
+  - Next Steps: Customer owns the production pipeline; specialist provides a 30-day check-in template and scaling playbook for additional workflows
+
   ### Customer Requirements
   - Representative sample of target documents / audio files
   - Clearly defined job volume, frequency, and SLA targets
